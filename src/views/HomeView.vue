@@ -16,19 +16,17 @@
 
                 <h2 class="text-2xl md:text-3xl font-bold mb-4">What you need to know</h2>
                 <p class="mb-2 md:mb-4 text-sm md:text-lg">
-                    We are so thrilled to be able to host DevFest Mauritus 2022 at the African Leadership College this year.
+                    We are so thrilled to be able to host DevFest Mauritius 2022 at the African Leadership College this year.
                 </p>
                 <p class="mb-2 md:mb-4 text-sm md:text-lg">
                     Although restrictions are lifted, we highly recommend everyone to take necessary precautions as
                     COVID is still present. Therefore please consider the following when attending the conference.
                 </p>
-                <p>
-                    <ul class="list-disc list-inside text-sm md:text-lg mb-2 md:mb-4">
-                        <li>Temperature check will be done before entering the campus</li>
-                        <li>We recommend wearing a face mask </li>
-                        <li>Social distancing is advisable</li>
-                    </ul>
-                </p>
+                <ul class="list-disc list-inside text-sm md:text-lg mb-2 md:mb-4">
+                    <li>Temperature check will be done before entering the campus</li>
+                    <li>We recommend wearing a face mask </li>
+                    <li>Social distancing is advisable</li>
+                </ul>
                 <p class="mb-2 md:mb-4 text-sm md:text-lg">
                     Thank you for your understanding!
                 </p>
@@ -106,7 +104,7 @@
 							<img class="h-12 md:ml-4 md:mr-6 mt-3 md:mt-0" src="/images/cloud-mu.svg" />
             </div>
             <div class="flex flex-row gap-4 items-center">
-
+							<img class="h-12 mt-3 md:mt-0" src="/images/alc_logo.jpg" />
 							<img class="h-32 mt-3 md:mt-0" src="/images/ios.png" />
             </div>
         </div>

@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
@@ -9,7 +8,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       <div class="flex justify-between items-center">
         <!-- <RouterLink to="/"> -->
         <router-link :to="{ name: 'home' }" rel="noreferrer" class="text-sm"
-          ><img src="/images/gdg-mauritius-logo.svg" class="h-3.5 md:h-5"
+          ><img src="/images/gdg-mauritius-logo.svg" alt="GDG Mauritius" class="h-3.5 md:h-5"
         /></router-link>
         <!-- </RouterLink> -->
 
@@ -23,12 +22,12 @@ import HelloWorld from "./components/HelloWorld.vue";
             <li
               class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"
             >
-              <RouterLink to="agenda">AGENDA</RouterLink>
+              <RouterLink to="/agenda">AGENDA</RouterLink>
             </li>
             <li
               class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"
             >
-              <RouterLink to="speakers">SPEAKERS</RouterLink>
+              <RouterLink to="/speakers">SPEAKERS</RouterLink>
             </li>
             <li
               class="py-2 border-b-4 border-white hover:border-b-4 hover:border-green-600 hover:transition hover:ease-in-out duration-300"
@@ -159,7 +158,7 @@ import HelloWorld from "./components/HelloWorld.vue";
           target="_blank"
           rel="noreferrer"
           class="text-sm"
-          ><img class="h-12" src="/images/logo-dark.png"
+          ><img class="h-12" src="/images/logo-dark.png" alt="GDG Mauritius"
         /></a>
         <a
           href="https://www.mscc.mu/code-of-conduct/"
