@@ -23,10 +23,12 @@ export default {
   },
   methods: {
     init() {
-      sessionize.loader();
+      if (typeof sessionize !== "undefined") {
+        sessionize.loader();
+      }
     },
   },
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>
